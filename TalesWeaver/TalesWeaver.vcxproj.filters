@@ -13,27 +13,54 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="헤더 파일\Common">
+      <UniqueIdentifier>{b5a0a731-386f-41cb-905f-cb24106f1a38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Etc">
+      <UniqueIdentifier>{31d51c81-1ccb-4720-957e-564973531635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Utils">
+      <UniqueIdentifier>{b49e94a0-0d12-4092-aa0f-dd9ccebbc5a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Common\MainEntry">
+      <UniqueIdentifier>{d4f6ee67-dda6-4682-af34-2a0a0d95beb0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일\Etc</Filter>
+    </ClInclude>
     <ClInclude Include="stdafx.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\Common</Filter>
     </ClInclude>
     <ClInclude Include="targetver.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\Etc</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="WinApp.h">
+      <Filter>헤더 파일\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>헤더 파일\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TalesWeaverApp.h">
+      <Filter>헤더 파일\Common</Filter>
     </ClInclude>
     <ClInclude Include="TalesWeaver.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\Common\MainEntry</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>헤더 파일\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="WinApp.cpp">
+      <Filter>헤더 파일\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="TalesWeaverApp.cpp">
+      <Filter>헤더 파일\Common</Filter>
     </ClCompile>
     <ClCompile Include="TalesWeaver.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>헤더 파일\Common\MainEntry</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
