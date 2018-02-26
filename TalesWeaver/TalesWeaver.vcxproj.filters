@@ -25,6 +25,12 @@
     <Filter Include="헤더 파일\Common\MainEntry">
       <UniqueIdentifier>{d4f6ee67-dda6-4682-af34-2a0a0d95beb0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="헤더 파일\Manager">
+      <UniqueIdentifier>{aaaea430-150f-47ad-88f5-c63bbaf578b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Base">
+      <UniqueIdentifier>{678e66c1-5227-45c6-837f-6a69de63ac3e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -48,6 +54,9 @@
     <ClInclude Include="TalesWeaver.h">
       <Filter>헤더 파일\Common\MainEntry</Filter>
     </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>헤더 파일\Base</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -61,6 +70,9 @@
     </ClCompile>
     <ClCompile Include="TalesWeaver.cpp">
       <Filter>헤더 파일\Common\MainEntry</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>헤더 파일\Base</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
