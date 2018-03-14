@@ -1,0 +1,4 @@
+﻿  TalesWeaverApp.cpp
+c:\users\user\documents\visual studio 2017\projects\talesweaver\talesweaver\talesweaverapp.cpp(29): warning C4101: 'hNewPen' :참조되지 않은 지역 변수입니다.
+c:\users\user\documents\visual studio 2017\projects\talesweaver\talesweaver\talesweaverapp.cpp(29): warning C4101: 'hOldPen' :참조되지 않은 지역 변수입니다.
+  TalesWeaver.vcxproj -> C:\Users\user\Documents\Visual Studio 2017\Projects\TalesWeaver\Debug\TalesWeaver.exe
