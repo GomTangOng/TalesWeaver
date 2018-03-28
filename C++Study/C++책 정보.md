@@ -2,7 +2,7 @@
 
 
 
-![](C:\Users\user\Desktop\책제목.png)
+![](책제목.png)
 
 
 
